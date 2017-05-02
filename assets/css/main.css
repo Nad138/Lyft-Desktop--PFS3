@@ -1,0 +1,18 @@
+body{
+
+  font-family: 'Montserrat', sans-serif;
+}
+.logo {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 30px;
+
+  }
+  img{
+  display: inline-block;
+  height: 40px;
+  width: 80px;
+}
+video{
+  position: absolute;
+}
