@@ -1,5 +1,7 @@
 html{
   font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(#76278f, #2B1E66);
+  color: white;
 }
 nav{
 
@@ -38,6 +40,7 @@ video{
 .menu a{
   color: white;
   margin: 25px;
+  display: inline-block;
 }
 button{
   border-radius: 5px;
@@ -46,19 +49,34 @@ button{
 }
 #login{
   position: relative;
+  height: 30px;
   margin-right: 20px;
+  width: 150px;
+  align-content: center;
 }
 .form{
+  color: #728099;
   background-color: white;
   display: inline-block;
-  width: 400px;
+  width: 600px;
   height: auto;
   position: absolute;
   margin-left: 900px;
   text-align: left;
+  padding: 20px;
+}
+.form input, .form a{
+  display: block;
 }
 .form input{
-  display: block;
+  border: none;
+  border-bottom: solid 2px #728099;
+}
+.form button{
+  background-color: #FF00BF;
+  height: 40px;
+  width: 150px;
+  border-bottom: none;
 }
 #formu{
   display: none;
@@ -74,7 +92,9 @@ h1, h3{
   float: right;
   width: 40%;
 }
-.info{
-  background: linear-gradient(#76278f, #2B1E66);
-  color: white;
+
+.text-info, .image-info{
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
 }
