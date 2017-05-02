@@ -1,6 +1,5 @@
 html{
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(#76278f, #2B1E66);
   color: white;
 }
 nav{
@@ -18,6 +17,9 @@ video{
   z-index: -100;
   width: 100%;
   height: 100%;
+}
+body{
+  background: linear-gradient(#76278f, #2B1E66);
 }
 
 .logo {
