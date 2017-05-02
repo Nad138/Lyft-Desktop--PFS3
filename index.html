@@ -9,18 +9,21 @@
   <title>Lyft</title>
 </head>
 <body>
-  <header>
+    <video class="video" autoplay loop>
+    				<source src="assets/img/hero-video.mp4" autoplay poster="assets/img/hero-video.mp4" type="video/mp4"/>
+  	</video>
     <nav>
-      <span class="logo"><img src="assets/img/logo-white.png" alt="logo-blanco"></span>
-      <ul>
-        <li><a href="#">Drive</a></li>
-        <li><a href="#">Explore</a></li>
-        <li><a href="#">Help</a></li>
-      </ul>
+        <span class="logo"><img src="assets/img/logo-white.png" id="logo" alt="logo-blanco"></span>
+        <div class="menu">
+           <a href="#">Drive</a>
+           <a href="#">Explore</a>
+           <a href="#">Help</a>
+        </div>
       <button type="button" name="button">Log in</button>
       <span class="registrarse"></span>
-       <button type="submit" id="registro" name="button"></button>
+       <button type="submit" id="registro" name="button">Sign up</button>
     </nav>
+  <header>
     <div class="form">
       <h1>TURN MILES INTO MONEY</h1>
       <h3>SIGN UP TO DRIVE WITH LYFT.</h3>
@@ -31,7 +34,31 @@
       earn money for inviting friends to drive.Learn more</span>
     </div>
   </header>
-  <video src="assets/img/hero-video.mp4" autoplay poster="assets/img/hero-video.mp4"></video>
+  <section class="info">
+    <div class="text-info">
+      <div class="text">
+        <h2>A RIDE IN MINUTES</h2>
+        <p>Request a ride and you'll be on your way in minutes.</p>
+        <p>Request. Ride. Repeat.</p>
+      </div>
+      <div class="text">
+        <h2>SERIOUS ABOUT SAFETY</h2>
+        <p>From knowing the color of your driver's car to our 24/7</p>
+        <p>Trust & Safety Team, we got you.</p>
+      </div>
+      <div class="text">
+        <h2>HAPPY DRIVERS.</h2>
+        <h2>HAPPY RIDERS.</h2>
+        <p>Ride with us and you'll see why 9 out 10 rides end with five</p>
+        <p>stars.</p>
+      </div>
+    </div>
+    <div class="image-info">
+      <img src="assets/img/phone.png" id="phone" alt="">
+    </div>
+  </section>
+
+
   <script src="assets/js/main.js" charset="utf-8"></script>
 </body>
 </html>

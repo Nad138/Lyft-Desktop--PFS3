@@ -1,18 +1,30 @@
 body{
-
   font-family: 'Montserrat', sans-serif;
 }
+nav{
+  background-color:
+  color: white;
+  position: absolute;
+
+}
+
 .logo {
-  position: relative;
   margin-top: 20px;
   margin-left: 30px;
-
   }
-  img{
+
+  #logo{
   display: inline-block;
   height: 40px;
   width: 80px;
 }
-video{
-  position: absolute;
+
+#phone{
+  display: inline;
+  float: right;
+  width: 40%;
+}
+.info{
+  background: linear-gradient(#76278f, #2B1E66);
+  color: white;
 }
