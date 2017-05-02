@@ -1,10 +1,19 @@
-body{
+html{
   font-family: 'Montserrat', sans-serif;
 }
 nav{
-  background-color:
+
   color: white;
-  position: absolute;
+  position: fixed;
+  z-index: 1000;
+}
+header{
+  position: relative;
+  z-index: auto;
+}
+video{
+  position: relative;
+  z-index: 100%;
 }
 
 .logo {
@@ -16,6 +25,43 @@ nav{
   display: inline-block;
   height: 40px;
   width: 80px;
+  margin-top: 20px;
+
+}
+.menu{
+  text-align: right;
+  display: inline-block;
+  color: white;
+}
+.menu a{
+  color: white;
+  margin: 25px;
+}
+button{
+  border-radius: 5px;
+  color: white;
+  background: none;
+}
+#login{
+  position: relative;
+  margin-right: 20px;
+}
+.form{
+  display: block;
+  width: 400px;
+  height: auto;
+  position: relative;
+  margin-left: 10px;
+  text-align: left;
+}
+.form input{
+  display: inline;
+}
+#formu{
+  display: none;
+}
+.error{
+  display: none;
 }
 h1, h3{
   color: #352384;
