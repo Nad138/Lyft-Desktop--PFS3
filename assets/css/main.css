@@ -12,7 +12,7 @@ header{
   position: relative;
   z-index: auto;
 }
-video{
+.video-header{
   position: relative;
   z-index: -100;
   width: 100%;
@@ -60,10 +60,12 @@ button{
   color: #728099;
   background-color: white;
   display: inline-block;
-  width: 600px;
+  width: 500px;
   height: auto;
   position: absolute;
-  margin-left: 900px;
+  margin-left: 800px;
+  margin-top: -700px;
+  margin-right: 35px;
   text-align: left;
   padding: 20px;
 }
@@ -95,8 +97,29 @@ h1, h3{
   width: 40%;
 }
 
-.text-info, .image-info{
+.text-info{
   display: inline-block;
   margin: 10px;
   text-align: center;
+}
+.image-info{
+  display: inline-block;
+  margin-left: 10px;
+  text-align: left;
+}
+.videos{
+  display: block;
+}
+.watch{
+  display: block;
+}
+article{
+  display: inline-block;
+  background: white;
+  color: black;
+  width: 40%;
+}
+.video{
+  width: 50%;
+  display: inline-block;
 }
